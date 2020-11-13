@@ -1,0 +1,15 @@
+.find__top-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.recommend-friends__empty {
+    height: 159px;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-input-placeholder);
+}

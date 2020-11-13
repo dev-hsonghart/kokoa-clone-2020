@@ -1,0 +1,22 @@
+.display__link {
+    background-color: var(--bg-nav);
+    padding: 12px 0px;
+    display: block;
+    text-align: center;
+    margin-bottom: 14px;
+    margin-top: -15px;
+}
+
+.display__link svg {
+    color: var(--icon-light-gray);
+}
+
+.display__text {
+    color: var(--text-info);
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.friends-channel {
+    width: 100%;
+}

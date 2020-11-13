@@ -1,0 +1,36 @@
+@import "reset.css";
+@import "valiables.css";
+/* components */
+@import "components/body-header.css";
+@import "components/status-bar.css";
+@import "components/nav.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge-num.css";
+@import "components/menu-icon-text.css";
+@import "components/section-header.css";
+@import "components/open-chat-list.css";
+@import "components/badge-dot.css";
+@import "components/dividers.css";
+@import "components/kokoa-app__list.css";
+@import "components/nav-header.css";
+@import "components/badge-new.css";
+@import "components/column-menu.css";
+@import "components/get-message.css";
+@import "components/send-message.css";
+/* screen */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/chat.css";
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 96px 0px;
+}
+
+.main-content {
+    padding: var(--horizontal-space);
+}
+

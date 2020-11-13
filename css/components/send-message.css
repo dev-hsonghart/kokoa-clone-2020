@@ -1,0 +1,21 @@
+.send-message{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.send-message__chat-time{
+    font-size: 11px;
+    margin-right: 6px;
+    color: var(--text-title-sub);
+    padding-bottom: 2px;
+}
+
+.send-message__chat-content{
+    background-color: var(--main);
+    border-radius: 13px;
+    border-top-right-radius: 2px;
+    padding: 8px 10px;
+    color: var(--text-btn-normal);
+    font-size: 16px;
+}

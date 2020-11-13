@@ -1,0 +1,3 @@
+# git에 올릴 파일 중 제외할 목록
+screenshots
+img/.DS_Store

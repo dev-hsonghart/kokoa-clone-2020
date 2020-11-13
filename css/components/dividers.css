@@ -1,0 +1,22 @@
+.divider__section:not(section){
+    width: 100vw;
+    height: 1px;
+    margin-left: calc(-50vw + 50%);
+}
+
+.divider__article{
+    width: 100%;
+    height: 1px;
+}
+
+.divider__default{
+    background-color: var(--border-nav);
+}
+
+.divider__light{
+    background-color: var(--btn-disabled);
+}
+
+.divider__margin{
+    margin: 18px 0px;
+}

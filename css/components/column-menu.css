@@ -1,0 +1,42 @@
+.column-menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    border-bottom: 1px solid var(--btn-disabled);
+    background-color: white;
+}
+
+.column-menu__link{
+    position: absolute;
+    width: 100%;
+    height: 64px;
+}
+
+.column-menu__left{
+    display: flex;
+    align-items: center;
+}
+
+.column-menu__icon{
+    width: 40px;
+    text-align: center;
+    margin-right: 10px;
+    color: var(--text-btn-norma);
+}
+
+.column-menu__title{
+    font-size: 18px;
+    color: var(--text-btn-normal);
+    margin-right: 6px;
+}
+
+.column-menu__sub{
+    font-size: 17px;
+    color: var(--text-info-light);
+}
+
+.column-menu:last-of-type{
+    border: none;
+}

@@ -1,0 +1,22 @@
+.badge-dot{
+    position: absolute;
+    z-index: 10;
+    width: 6px;
+    height: 6px;
+    background-color: tomato;
+    border-radius: 50%;
+}
+
+.badge-parent{
+    position: relative;
+}
+
+.badge-dot__more-menu{
+    right: 18px;
+    top: 5px;
+}
+
+.badge-dot__header{
+    right:4px;
+    top: 8px;
+}
