@@ -1,6 +1,6 @@
 .chat-screen{
     background-color: #ABC1D1;
-    height: 1000vh;
+    height: 100vh;
 }
 
 /* 스크롤바 삭제 */
@@ -10,6 +10,7 @@
 
 .chat-screen>.main-content{
     padding: 0px 8px !important;
+    animation: FadeIn 0.5s ease-in-out;
 }
 
 .chat-date{
@@ -35,12 +36,13 @@
     box-sizing: border-box;
     position: fixed;
     display: flex;
-    padding: 6px 12px;
+    padding: 6px 0px 6px 24px;
     width: 100%;
     height: 50px;
     bottom: 0px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .write-message__left{
@@ -57,16 +59,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 85%;
     height: 100%;
     background-color: var(--btn-disabled);
     border: 1px solid var(--border-nav);
     border-radius: 30px;
+    transition: all .3s ease-in-out;
 }
 
-.write-message__right input{
+.write-message__right > input{
     padding-left: 14px;
     width: calc(100% - 80px);
+    transition: all 0.3s ease-in-out;
 }
 
 .write-message__right input::placeholder{
@@ -97,4 +101,51 @@
     background-color: var(--main);
     color: var(--text-btn-normal);
     margin-right: 5px;
+}
+
+/* send 버튼 hover 시 */
+.write-message__send:hover{
+    background-color: var(--btn-main-hover);
+}
+
+.write-message__send:hover .fa-arrow-up{
+    animation: sendHoverIcon 0.7s ease-in infinite;
+}
+
+@keyframes sendHoverIcon {
+    0%{
+        transform: none;
+    }
+    40%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+
+/* 화면 로딩 */
+
+@keyframes FadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1; 
+        transform: none;
+    }
+}
+
+/* 채팅창 입력 인터렉션 */
+
+.write-message:focus-within .write-message__right{
+    width: 100vw;
+    transform: translateX(-30px) translateY(-90px);
+}
+
+.write-message:focus-within {
+    background-color: rgba(255, 255, 255, 0);
+    bottom: -60px;
 }

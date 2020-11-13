@@ -19,6 +19,12 @@
     margin-left: auto;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-header__column > div{
+    width: 100%;
+    text-align: center;
 }
 
 .nav-header__column:nth-child(2){

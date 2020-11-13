@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: hide-splash 0.5s ease-in forwards;
+    animation: hide-splash 0.3s ease-in forwards;
     animation-delay: 1.5s;
     animation-iteration-count: 1;
 }

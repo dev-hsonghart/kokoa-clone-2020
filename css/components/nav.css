@@ -7,13 +7,13 @@
     border-top: 1px solid var(--border-nav);
     box-sizing: border-box;
     background-color: var(--bg-nav);
+    animation: navAppearAnimation 0.5s ease-in-out both;
 }
 
 /* box-sizing: border-box; -> box 사이즈를 바꾸지 않아도 된다. 패딩값으로 인해. */
 
 .nav__list {
     height: 100%;
-
     display: flex;
 }
 
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in;
 }
 
 .nav__link:active {
@@ -54,4 +54,30 @@
     height: 5px;
     background-color: tomato;
     border-radius: 50%;
+}
+
+/* 버튼 focus 애니메이션 */
+
+@keyframes navAnimation {
+    from{
+        transform: scale(1) translateY(0px);
+    }
+    to{
+        transform: scale(1.1) translateY(-3px);
+    }
+}
+
+.nav__link:focus > .nav__icon >svg {
+    animation: navAnimation 0.3s ease-in-out forwards;
+}
+
+/* .nav 로딩 애니메이션 */
+
+@keyframes navAppearAnimation {
+    from{
+        transform: translateY(56px);
+    }
+    to{
+        transform: none;
+    }
 }
