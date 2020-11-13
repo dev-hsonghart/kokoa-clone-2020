@@ -83,3 +83,5 @@ input[type="password"] {
 .sign-up__btn:active {
     background-color: var(--btn-main-pressed);
 }
+
+

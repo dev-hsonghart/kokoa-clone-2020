@@ -1,10 +1,13 @@
 .display__link {
     background-color: var(--bg-nav);
-    padding: 12px 0px;
-    display: block;
-    text-align: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -14px;
     margin-bottom: 14px;
-    margin-top: -15px;
 }
 
 .display__link svg {
@@ -19,4 +22,29 @@
 
 .friends-channel {
     width: 100%;
+}
+
+.splash-screen{
+    background-color: var(--main);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: hide-splash 0.5s ease-in forwards;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes hide-splash{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    visibility: hidden;
+    }
 }

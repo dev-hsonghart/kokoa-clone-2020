@@ -3,6 +3,11 @@
     height: 1000vh;
 }
 
+/* 스크롤바 삭제 */
+.chat-screen::-webkit-scrollbar{
+    display: none;
+}
+
 .chat-screen>.main-content{
     padding: 0px 8px !important;
 }
@@ -61,6 +66,7 @@
 
 .write-message__right input{
     padding-left: 14px;
+    width: calc(100% - 80px);
 }
 
 .write-message__right input::placeholder{
@@ -92,4 +98,3 @@
     color: var(--text-btn-normal);
     margin-right: 5px;
 }
-
