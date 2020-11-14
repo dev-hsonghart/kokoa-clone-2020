@@ -3,7 +3,7 @@
     height: 100vh;
     background-color: var(--border-nav);
     color: tomato;
-    font-size: 25px;
+    font-size: 40px;
     position: absolute;
     z-index: 20;
     top:0px;
