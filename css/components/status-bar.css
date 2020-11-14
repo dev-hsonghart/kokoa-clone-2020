@@ -6,6 +6,7 @@
     height: 31px;
     padding: 0px 5px;
     box-sizing: border-box;
+    background-color: white;
 }
 
 .status-bar__column {

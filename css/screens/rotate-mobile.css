@@ -1,0 +1,19 @@
+#rotate-mobile {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--border-nav);
+    color: tomato;
+    font-size: 25px;
+    position: absolute;
+    z-index: 20;
+    top:0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (orientation:landscape) {
+    #rotate-mobile{
+        display: flex;
+    }
+}
