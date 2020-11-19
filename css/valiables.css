@@ -1,27 +1,4 @@
 :root {
-    /* color */
-    --main: #FAE100;
-    /* text */
-    --text-title: #000000;
-    --text-title-sub: #808080;
-    --text-input-placeholder: #bbbbbb;
-    --text-btn-normal: #333333;
-    --text-info: #666666;
-    --text-info-light: #aaaaaa;
-    --pink: #FF6FC7;
-    /* border, bg */
-    --border-input: #bfbfbf;
-    --border-nav: #e6e6e6;
-    --bg-nav: #fafafa;
-    /* btn */
-    --btn-disabled: #f6f6f6;
-    --btn-main-normal: #FAE100;
-    --btn-main-pressed: #DDC810;
-    --btn-main-hover: #facc00;
-    /* icon */
-    --icon-nav-default: #2F363E;
-    --icon-light-gray: #cdcdcd;
-    /* 화면 공통 좌우 패딩 */
-    --horizontal-space: 0px 18px;
-
+  /* 화면 공통 좌우 패딩 */
+  --horizontal-space: 0px 18px;
 }

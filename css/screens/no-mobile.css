@@ -1,19 +1,19 @@
 #no-mobile {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--border-nav);
-    color: tomato;
-    font-size: 40px;
-    position: absolute;
-    z-index: 20;
-    top:0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--border-nav);
+  color: tomato;
+  font-size: 40px;
+  position: absolute;
+  z-index: 20;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media screen and (max-width:450px){
-    #no-mobile{
-        display: none;
-    }
+@media screen and (max-width: 500px) {
+  #no-mobile {
+    display: none;
+  }
 }

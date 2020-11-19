@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>profile__mask</title>
+    <g id="profile__mask" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M50,0 C10,0 0,10 0,50 C0,90 10,100 50,100 C90,100 100,90 100,50 C100,10 90,0 50,0 Z" id="mask-squircle" fill="#000000"></path>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+.profile {
+  width: 100px;
+  height: 100px;
+}
+
+.profile-mask {
+  mask: url(profile__mask.svg);
+  -webkit-mask: url(profile__mask.svg);
+  mask-position: center;
+  -webkit-mask-position: center;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.chosun.com/resizer/IreInsQQFUYvnvMv-9IQP0QOFzw=/601x398/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/UEHMTNLTLU2GPM5REEDSORFZXQ.jpg);
+  background-position: center;
+  background-size: cover;
+}
