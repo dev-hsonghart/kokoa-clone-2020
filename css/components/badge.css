@@ -1,0 +1,41 @@
+.badge__number,
+.badge__dot,
+.badge__dot-gnb {
+  position: absolute;
+}
+
+.badge__number,
+.badge__dot {
+  right: 34px;
+  top: 10px;
+}
+
+.badge__dot,
+.badge__dot-gnb,
+.badge__number,
+.badge__number-list {
+  width: 16px;
+  height: 16px;
+  color: white;
+  background-color: tomato;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge__dot,
+.badge__dot-gnb {
+  width: 5px;
+  height: 5px;
+}
+
+.badge__dot-gnb {
+  top: 12px;
+  right: 0px;
+}
+
+.badge__number-list {
+  margin-top: 7px;
+}

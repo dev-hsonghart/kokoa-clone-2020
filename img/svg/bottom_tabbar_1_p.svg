@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bottom_tabbar_1_p</title>
+    <g id="bottom_tabbar_1_p"  class="bottom_tabbar__icon--focus" stroke="none" stroke-width="1" fill="inherit" fill-rule="evenodd">
+        <path d="M6.26884777,100 L6.30776138,99.8621183 C5.89783936,99.9528322 5.46071164,100 5,100 C2,100 0,98 0,95 C0,74.9332344 12.8856026,58.0878695 30.8996368,52.2210762 C24.8285334,46.7229174 21,38.7868513 21,30 C21,13.5 34.5,0 51,0 C67.5,0 81,13.5 81,30 C81,39.0541379 76.9350043,47.2049435 70.5399302,52.7174993 C87.7967866,58.9944124 100,75.4718045 100,95 C100,98 98,100 95,100 L6.26884777,100 Z" id="Combined-Shape" fill="inherit" fill-rule="nonzero"></path>
+    </g>
+</svg>

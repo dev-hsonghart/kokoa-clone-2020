@@ -1,0 +1,44 @@
+.guide-display {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background-color: #000000;
+  padding: 14px 0px;
+  color: white;
+  font-size: 16px;
+}
+
+.guide-display a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#icon_info,
+.guide-display svg {
+  width: 14px;
+  height: 14px;
+  fill: var(--gray);
+  margin-bottom: 2px;
+}
+
+.guide-display span {
+  margin: 0px 7px;
+}
+
+.guide-display i {
+  font-size: 12px;
+  color: var(--gray);
+}
+
+.catergory {
+  margin-top: 15px;
+}
+
+.user__channel {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.user__channel span {
+  font-size: 15px;
+}

@@ -1,0 +1,43 @@
+.gnb {
+  width: 100%;
+  height: 56px;
+  background-color: var(--main);
+  color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 12px 0px 18px;
+}
+
+.gnb__column:last-child {
+  display: flex;
+  height: 100%;
+}
+
+.gnb__column button {
+  width: 34px;
+  height: 100%;
+  background-color: var(--no-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.gnb__column svg {
+  width: 20px;
+  height: 20px;
+}
+
+.gnb__icon {
+  fill: white;
+}
+
+.gnb__column button:last-child {
+  position: relative;
+}
+
+#icon_chat_plus {
+  stroke: white;
+}
