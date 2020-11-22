@@ -13,6 +13,11 @@
   height: 56px;
 }
 
+.profile--tiny {
+  width: 20px;
+  height: 20px;
+}
+
 .profile-mask {
   mask: url(profile__mask.svg);
   -webkit-mask: url(profile__mask.svg);

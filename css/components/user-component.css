@@ -38,12 +38,12 @@
   flex-direction: column;
 }
 .user__nickname {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
 }
 
 .user__message {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--sub-pupple);
   margin-top: 5px;
 }

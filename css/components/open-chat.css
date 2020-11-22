@@ -1,0 +1,86 @@
+.open-chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: var(--border-normal);
+  padding: 14px 0px;
+}
+
+.open-chat__status {
+  display: flex;
+  align-items: center;
+}
+
+.open-chat__column:first-child {
+  width: calc(100% - 78px);
+  display: flex;
+  flex-direction: column;
+}
+
+.open-chat__column:first-child span:first-child {
+  font-size: 18px;
+  color: white;
+}
+
+.open-chat__column:first-child span:nth-child(2) {
+  margin: 6px 0px;
+  color: var(--sub-pupple);
+}
+
+.profile--tiny {
+  margin-right: 7px;
+}
+
+.open-chat__status span {
+  font-size: 14px;
+}
+
+.open-chat__status span:last-child {
+  margin-left: 7px;
+  color: aqua;
+}
+
+.open-chat__column:last-child {
+  width: 78px;
+}
+
+.open-chat__thumbnail {
+  position: relative;
+  width: 78px;
+  height: 78px;
+}
+
+.open-chat__like {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 8px;
+  border-radius: 30px;
+  color: white;
+  font-size: 12px;
+  right: 5px;
+  bottom: 5px;
+}
+
+.open-chat__like span {
+  margin-left: 3px;
+}
+
+.open-chat__like i {
+  font-size: 11px;
+  padding-bottom: 1px;
+}
+
+.open-chat__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.open-chat:last-of-type {
+  border: none;
+}

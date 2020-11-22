@@ -11,8 +11,11 @@
 @import "components/badge.css";
 @import "components/user-component.css";
 @import "components/catergory.css";
+@import "components/menu.css";
+@import "components/open-chat.css";
 /* screens */
 @import "screens/friends.css";
+@import "screens/find.css";
 /* global element */
 * {
   box-sizing: border-box;
@@ -20,6 +23,7 @@
 
 body {
   font-family: "Black Han Sans", sans-serif;
+  letter-spacing: 0.5px;
   scrollbar-width: none;
   width: 100%;
   height: 100%;
@@ -36,6 +40,9 @@ main,
   font-family: "Do Hyeon", sans-serif;
 }
 
-button {
+button,
+.user-component--1x,
+.user-component--2x,
+.user-component--3x {
   cursor: pointer;
 }
