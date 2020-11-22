@@ -32,7 +32,12 @@ body {
 main {
   padding: var(--horizontal-space);
   height: calc(100vh - 56px - 21px - 54px);
-  background: linear-gradient(var(--main), #1d2250);
+  background: linear-gradient(var(--main), #202458);
+  overflow-x: auto;
+}
+
+main::-webkit-scrollbar {
+  width: 0;
 }
 
 main,

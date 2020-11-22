@@ -6,8 +6,8 @@
 
 .badge__number,
 .badge__dot {
-  right: 34px;
-  top: 10px;
+  right: -10px;
+  top: -7px;
 }
 
 .badge__dot,
