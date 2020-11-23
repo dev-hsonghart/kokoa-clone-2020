@@ -1,0 +1,74 @@
+.login {
+  background-color: var(--main);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 40px 0px 40px;
+}
+
+.login__logo {
+  fill: white;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.login__title {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.login__subtitle {
+  font-size: 18px;
+  color: var(--sub-pupple);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.login__input {
+  height: 60px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-bottom: var(--border-normal);
+  color: white;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.login__input::placeholder {
+  color: var(--pupple-5);
+}
+
+.login__input:focus {
+  border-bottom: 1px solid white;
+}
+
+.login__btn {
+  width: 100%;
+  height: 60px;
+  background-color: var(--pupple-5);
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.login__btn:hover {
+  background-color: var(--sub);
+  color: white;
+}
+
+.login__btn:active {
+  background-color: var(--sub-press);
+}
+
+.find__id-pw {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--pupple-5);
+}
