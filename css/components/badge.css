@@ -3,6 +3,7 @@
 .badge__dot-gnb,
 .badge__dot-menu {
   position: absolute;
+  z-index: 1;
 }
 
 .badge__number,

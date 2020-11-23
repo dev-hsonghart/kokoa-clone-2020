@@ -1,4 +1,145 @@
-/* login */
+/* bottom-tabbar */
 
-.login__input {
+.bottom-tabbar__column:hover svg {
+  animation: hovering 1s ease-in-out infinite;
+}
+
+@keyframes hovering {
+  0% {
+    transform: translateY();
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY();
+  }
+}
+
+.bottom-tabbar__column:hover {
+  background-color: black;
+}
+
+.gnb__setting:hover svg {
+  animation: gnb_setting_hovering 1s linear infinite;
+}
+
+@keyframes gnb_setting_hovering {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  5% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* screen load */
+
+@keyframes screen-load {
+  from {
+    transform: translateY();
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* origin */
+.friends .guide-display,
+.friends .user-component--3x,
+.friends .category,
+.friends .user-component--1x,
+.chats .user-component--2x,
+.find .menu-list,
+.find .category,
+.find .category__emtpy,
+.find .open-chat,
+.more .user-component--3x,
+.more .more-menu-list,
+.more section,
+.bg-main .setting,
+.border-divider,
+.chat .chat-day,
+.chat .chat-you,
+.chat .chat-me {
+  transform: translateY(10px);
+  opacity: 0;
+  animation: screen-load 0.3s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+/* friends */
+.friends .user-component--3x {
+  animation-delay: 0.4s;
+}
+.friends .category {
+  animation-delay: 0.5s;
+}
+.friends .user-component--1x {
+  animation-delay: 0.6s;
+}
+
+/* chats */
+.chats .user-component--2x:nth-of-type(2) {
+  animation-delay: 0.4s;
+}
+.chats .user-component--2x:nth-of-type(3) {
+  animation-delay: 0.5s;
+}
+
+/* find */
+.find .category:first-of-type,
+.find .category__emtpy {
+  animation-delay: 0.4s;
+}
+
+.find .category:last-of-type,
+.find .open-chat:first-of-type {
+  animation-delay: 0.5s;
+}
+.find .open-chat:nth-of-type(2) {
+  animation-delay: 0.6s;
+}
+.find .open-chat:nth-of-type(3) {
+  animation-delay: 0.7s;
+}
+.find .open-chat:nth-of-type(4) {
+  animation-delay: 0.8s;
+}
+.find .open-chat:last-of-type {
+  animation-delay: 0.9s;
+}
+
+/* more */
+.more .more-menu-list {
+  animation-delay: 0.4s;
+}
+.more section {
+  animation-delay: 0.5s;
+}
+
+/* in chat */
+.chat .chat-you,
+.chat .chat-me {
+  animation-delay: 0.5s;
+}
+
+@keyframes input-chat-load {
+  from {
+    transform: translateY();
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.input__chat {
+  transform: translateY(56px);
+  animation: input-chat-load 0.3s ease-in-out forwards;
+  animation-delay: 1s;
 }

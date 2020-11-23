@@ -23,6 +23,7 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 @import "screens/login.css";
+@import "screens/splash.css";
 /* global element */
 @import "interaction.css";
 

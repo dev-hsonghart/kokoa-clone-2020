@@ -1,7 +1,7 @@
 .guide-display {
   width: 100vw;
   margin-left: calc(50% - 50vw);
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 14px 0px;
   color: var(--sub-pupple);
   font-size: 16px;
@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-.gnide-icon,
+.guide-icon,
 .guide-display svg {
   width: 14px;
   height: 14px;
@@ -28,11 +28,6 @@
 .guide-display i {
   font-size: 12px;
 }
-
-.catergory {
-  margin-top: 15px;
-}
-
 .user__channel {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.5);

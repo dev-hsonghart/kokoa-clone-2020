@@ -8,6 +8,7 @@
   align-items: center;
   color: var(--light-pupple);
   font-size: 15px;
+  margin-top: 15px;
 }
 .category i {
   color: var(--pupple-5);
