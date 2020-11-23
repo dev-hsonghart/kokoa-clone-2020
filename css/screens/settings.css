@@ -1,0 +1,12 @@
+.border-divider {
+  width: 100vw;
+  margin: 10px calc(50% - 50vw);
+  background-color: var(--white-0-05);
+  height: 1px;
+}
+
+.setting:first-of-type,
+.setting:nth-of-type(4),
+.setting:last-of-type {
+  border: none;
+}

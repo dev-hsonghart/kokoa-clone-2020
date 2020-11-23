@@ -1,0 +1,36 @@
+.setting {
+  width: 100%;
+  height: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-top: var(--border-light);
+}
+
+.setting__column:first-child {
+  width: 20px;
+  margin-right: 15px;
+}
+
+.setting__column svg {
+  width: 100%;
+}
+
+.setting__icon {
+  fill: white;
+}
+
+.setting__column:last-child,
+.setting__title {
+  display: flex;
+  align-items: center;
+}
+
+.setting__column:last-child {
+  width: calc(100% - 20px);
+  justify-content: space-between;
+}
+
+.setting__sub-text {
+  color: var(--sub-pupple);
+}

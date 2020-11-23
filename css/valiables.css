@@ -7,12 +7,15 @@
   --dark-pupple: #2b2d37;
   --light-pupple: #e1dcf8;
   --sub-pupple: #8985ac;
+  --medium-pupple: #c4a3db;
   --pupple-5: rgba(128, 129, 197, 0.5);
   /* graysclae */
   --silver: #a4a4a4;
   --gray: #999999;
   --light-gray: #c9c9c9;
   --no-color: (0, 0, 0, 0);
+  --white-0-05: rgba(255, 255, 255, 0.05);
   /* border */
   --border-normal: solid 1px rgba(255, 255, 255, 0.1);
+  --border-light: solid 1px rgba(255, 255, 255, 0.03);
 }

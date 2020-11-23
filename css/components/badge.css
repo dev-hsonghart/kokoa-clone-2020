@@ -1,6 +1,7 @@
 .badge__number,
 .badge__dot,
-.badge__dot-gnb {
+.badge__dot-gnb,
+.badge__dot-menu {
   position: absolute;
 }
 
@@ -13,7 +14,8 @@
 .badge__dot,
 .badge__dot-gnb,
 .badge__number,
-.badge__number-list {
+.badge__number-list,
+.badge__dot-menu {
   width: 16px;
   height: 16px;
   color: white;
@@ -26,7 +28,8 @@
 }
 
 .badge__dot,
-.badge__dot-gnb {
+.badge__dot-gnb,
+.badge__dot-menu {
   width: 5px;
   height: 5px;
 }
@@ -38,4 +41,22 @@
 
 .badge__number-list {
   margin-top: 7px;
+}
+
+.badge__dot-menu {
+  top: 0px;
+  right: 0px;
+}
+
+.badge__new {
+  width: 15px;
+  height: 14px;
+  background-color: tomato;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6px;
 }

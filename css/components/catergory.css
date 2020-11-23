@@ -1,4 +1,4 @@
-.catergory {
+.category {
   background-color: var(--no-color);
   width: 100%;
   height: 50px;
@@ -9,12 +9,12 @@
   color: var(--light-pupple);
   font-size: 15px;
 }
-.catergory i {
+.category i {
   color: var(--pupple-5);
   font-size: 12px;
   margin-left: 5px;
 }
 
-.catergory__sub-text {
+.category__sub-text {
   color: var(--pupple-5);
 }
