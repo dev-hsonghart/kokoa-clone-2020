@@ -41,3 +41,47 @@
 #icon_chat_plus {
   stroke: white;
 }
+
+#icon_music,
+#icon_music_3 {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+#icon_music {
+  top: 5px;
+  right: 0px;
+}
+
+#icon_music_3 {
+  top: 15px;
+  left: 0px;
+}
+
+.gnb__interaction {
+  position: relative;
+}
+.gnb__interaction:hover #icon_music,
+.gnb__interaction:hover #icon_music_3 {
+  will-change: inherit;
+  animation: music-hovering 1s ease-in-out infinite;
+  opacity: 1;
+}
+
+@keyframes music-hovering {
+  0% {
+    transform: translateY();
+    transform: rotateZ(-10deg);
+  }
+  50% {
+    transform: translateY(-3px);
+    transform: rotateZ(5deg);
+  }
+  100% {
+    transform: translateY();
+    transform: rotateZ(-10deg);
+  }
+}

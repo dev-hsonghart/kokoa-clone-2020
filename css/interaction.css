@@ -143,3 +143,27 @@
   animation: input-chat-load 0.3s ease-in-out forwards;
   animation-delay: 1s;
 }
+
+/* login */
+.login__logo,
+.login__title,
+.login__subtitle,
+form,
+.login__btn,
+.login > a {
+  transform: translateY(10px);
+  opacity: 0;
+  animation: screen-load 0.3s ease-in-out forwards;
+  animation-delay: 4.5s;
+}
+
+.login__title,
+.login__subtitle {
+  animation-delay: 4.6s;
+}
+
+form,
+.login__btn,
+.login > a {
+  animation-delay: 4.7s;
+}
